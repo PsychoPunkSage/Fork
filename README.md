@@ -40,6 +40,10 @@ npm install -g ganache-cli
 
 </details><br>
 
+
+## Installation
+> Since the project is small, so, I have pushed `node_modules` as well as all the `build` so that the `tester` don't have to set up the project locally.
+
 ## Usage
 1. Deploy `UniswapV2Factory` using truffle.
 
