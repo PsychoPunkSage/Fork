@@ -2,7 +2,7 @@ const Factory = artifacts.require("UniswapV2Factory.sol");
 const Token1 = artifacts.require("Token1.sol");
 const Token2 = artifacts.require("Token2.sol");
 
-module.exports = async function (deployer, _network, addresses) {
+module.exports = async function (deployer, network, addresses) {
     await deployer.deploy(Factory, addresses[0]); // Send txn for deployment
     const factory = await Factory.deployed(); // Send txn to be mined
 
