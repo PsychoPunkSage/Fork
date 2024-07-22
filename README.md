@@ -6,11 +6,15 @@ This is a simple fork that has been performed using Contracts of Uniswap V2
 
 ### Node
 [Installation](https://nodejs.org/en/download/package-manager)<br>
-Check
+<details>
+<summary>Check</summary>
+
 ```bash
 node -v
 # v18.20.4
 ```
+
+</details><br>
 
 ### Truffle
 > **Truffle** is a development framework for Ethereum that provides a suite of tools for building, testing, and deploying smart contracts. It streamlines the development process by offering features such as automated contract testing, scriptable deployment, and network management.
@@ -122,3 +126,8 @@ truffle migrate --reset
 </details>
 
 </details><br>
+
+## Notes
+
+* Since V2 is old contract and it uses early solc version. So for better ERC management I used `@openzeppelin/contracts@2.5.1`
+* I was facing little difficulty while deploying `Periphery` using `Ganache-cli` so I removed some functions from `UniswapV2Router02.sol` and `IUniswapV2Router02.sol` to make contracts little smaller.
