@@ -40,6 +40,17 @@ npm install -g ganache-cli
 
 </details><br>
 
+## Demo Addresses
+
+| Contract Name | Address |
+|---|---|
+| UniswapV2Factory | 0x4f66E2b79629f7779FC9A21A86Fdc26f7b684A8F |
+| Token1 (TK1) | 0x02d78981614693460cf6E146bDb0CF9032264A53 |
+| Token2 (TK2) | 0x75ece1cF97452A775aF2d849D2f86B5928009352 |
+| PsychoPunkSage1 (PPS1) | 0xe32E8e30DFA0D86efe53749A7865B3a04D3659BE |
+| PsychoPunkSage2 (PPS2) | 0x1Dad99F3387C809bf111Bfc5668637AF8B900c96 |
+| UniswapV2Router02 | 0x0F40C539914D33233b57BDc84213d030AbD789fB |
+| WETH | 0x041349C537822C499e56f545C0e7f0784491D824 |
 
 ## Installation
 > Since the project is small, so, I have pushed `node_modules` as well as all the `build` so that the `tester` don't have to set up the project locally.
