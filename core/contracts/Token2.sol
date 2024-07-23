@@ -4,5 +4,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract Token2 is ERC20Detailed, ERC20 {
-    constructor() public ERC20Detailed("Token2", "TK2", 18) {}
+    constructor() public ERC20Detailed("PsychoPunkSage2", "PPS2", 18) {
+        _mint(msg.sender, 10000);
+    }
 }
