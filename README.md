@@ -197,39 +197,39 @@ truffle migrate --reset
 <summary>Router Deployment Results</summary>
 
 ```
-   Deploying 'WETH'
+   Replacing 'WETH'
    ----------------
-   > transaction hash:    0xe8ca9c1939e8923497bfe0ce2f775d945ba5ccf13eedd23515d3c472db2f5f22
-   > Blocks: 2            Seconds: 17
-   > contract address:    0x6a8D65468623Ab1Ed11dD53BF0C039E0600e1bF0
-   > block number:        6361340
-   > block timestamp:     1721729268
-   > account:             0xBD3DFbeF207e34d426c658175D56245E756e444a
-   > balance:             0.523334067000737515
+   > transaction hash:    0xf21b51ef47a9edcb290ae8844fab53bbb5cb78e42667ad99b3c67d676467a6bd
+   > Blocks: 2            Seconds: 13
+   > contract address:    0x041349C537822C499e56f545C0e7f0784491D824
+   > block number:        6362164
+   > block timestamp:     1721741688
+   > account:             0x9172BDC8973f91430ff81C49D05bd5416F4AB58a
+   > balance:             6.322848381199811548
    > gas used:            830246 (0xcab26)
-   > gas price:           36.107613781 gwei
+   > gas price:           19.547500469 gwei
    > value sent:          0 ETH
-   > total cost:          0.029978201911220126 ETH
+   > total cost:          0.016229234074385374 ETH
 
 
-   Deploying 'UniswapV2Router02'
+   Replacing 'UniswapV2Router02'
    -----------------------------
-   > transaction hash:    0x5701074a7862d5cbdeeeed0311557c4444e7aac0ceb4ff88b806dff35b34c0a9
-   > Blocks: 2            Seconds: 16
-   > contract address:    0x334DF8499e865c4d785d81862D2342A8369Ae814
-   > block number:        6361342
-   > block timestamp:     1721729292
-   > account:             0xBD3DFbeF207e34d426c658175D56245E756e444a
-   > balance:             0.350587767654495859
+   > transaction hash:    0xa0ba6f41ec22670c2d9efb2a6b83de624ad39c7460cadf5193ab2e37a5daa87a
+   > Blocks: 1            Seconds: 16
+   > contract address:    0x0F40C539914D33233b57BDc84213d030AbD789fB
+   > block number:        6362166
+   > block timestamp:     1721741712
+   > account:             0x9172BDC8973f91430ff81C49D05bd5416F4AB58a
+   > balance:             6.235456455014140945
    > gas used:            4708851 (0x47d9f3)
-   > gas price:           36.685446056 gwei
+   > gas price:           18.559076553 gwei
    > value sent:          0 ETH
-   > total cost:          0.172746299346241656 ETH
+   > total cost:          0.087391926185670603 ETH
 ```
 
 </details>
 
-## Dummy Tokens (Other than previously deployed tokens.)
+### Dummy Tokens (Other than previously deployed tokens.)
 
 <details>
 <summary>Router Deployment Results</summary>
