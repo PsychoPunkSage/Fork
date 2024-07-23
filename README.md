@@ -146,47 +146,47 @@ truffle migrate --reset
 ```
    Deploying 'UniswapV2Factory'
    ----------------------------
-   > transaction hash:    0x465fc8542113cb125b7689c1a33960c05497480c71eb538a730b2a92245c6598
-   > Blocks: 1            Seconds: 10
-   > contract address:    0x5d93e24e9C35538Cf69d63D863A09787A42ec8AC
-   > block number:        6361259
-   > block timestamp:     1721728092
-   > account:             0xBD3DFbeF207e34d426c658175D56245E756e444a
-   > balance:             0.2538441183111907
+   > transaction hash:    0x8db490fc931adc73f1a574c2dbe39db7e5652ab019d7d5c52895c29f51861ecd
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x4f66E2b79629f7779FC9A21A86Fdc26f7b684A8F
+   > block number:        6362139
+   > block timestamp:     1721741304
+   > account:             0x9172BDC8973f91430ff81C49D05bd5416F4AB58a
+   > balance:             6.412500369557721912
    > gas used:            4140182 (0x3f2c96)
-   > gas price:           35.30180115 gwei
+   > gas price:           14.64795296 gwei
    > value sent:          0 ETH
-   > total cost:          0.1461558816888093 ETH
+   > total cost:          0.06064519118183872 ETH
 
 
    Deploying 'Token1'
    ------------------
-   > transaction hash:    0x8759778b887def980d9faafdd5803a5119ad7ffa7801107a889aa5a2c49c3a20
-   > Blocks: 1            Seconds: 4
-   > contract address:    0xdB1671610E97983338a813D8d71E121FcbC54f22
-   > block number:        6361260
-   > block timestamp:     1721728104
-   > account:             0xBD3DFbeF207e34d426c658175D56245E756e444a
-   > balance:             0.212160949727586383
+   > transaction hash:    0x020f18a9e39b9966cc6d667691a69eb0800a5419515b9e4c067707c08cc391ed
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x02d78981614693460cf6E146bDb0CF9032264A53
+   > block number:        6362140
+   > block timestamp:     1721741316
+   > account:             0x9172BDC8973f91430ff81C49D05bd5416F4AB58a
+   > balance:             6.396915330403785753
    > gas used:            1057897 (0x102469)
-   > gas price:           39.401915861 gwei
+   > gas price:           14.732095047 gwei
    > value sent:          0 ETH
-   > total cost:          0.041683168583604317 ETH
+   > total cost:          0.015585039153936159 ETH
 
 
    Deploying 'Token2'
    ------------------
-   > transaction hash:    0x93628044a3df171c982a7d5ceb0cee3fd70484a8497f70ab217fe94e738199c5
-   > Blocks: 1            Seconds: 17
-   > contract address:    0x24580AAe98158e657f566E425f97b3234954251E
-   > block number:        6361261
-   > block timestamp:     1721728128
-   > account:             0xBD3DFbeF207e34d426c658175D56245E756e444a
-   > balance:             0.165642182720744281
+   > transaction hash:    0xb33061b7dcf4d17a9323a6f854254f240f934d33f68c35b70b9e0c364b1487fe
+   > Blocks: 1            Seconds: 16
+   > contract address:    0x75ece1cF97452A775aF2d849D2f86B5928009352
+   > block number:        6362142
+   > block timestamp:     1721741340
+   > account:             0x9172BDC8973f91430ff81C49D05bd5416F4AB58a
+   > balance:             6.382467555822340555
    > gas used:            1057897 (0x102469)
-   > gas price:           43.972869766 gwei
+   > gas price:           13.657071134 gwei
    > value sent:          0 ETH
-   > total cost:          0.046518767006842102 ETH
+   > total cost:          0.014447774581445198 ETH
 ```
 
 </details>
@@ -225,6 +225,45 @@ truffle migrate --reset
    > gas price:           36.685446056 gwei
    > value sent:          0 ETH
    > total cost:          0.172746299346241656 ETH
+```
+
+</details>
+
+## Dummy Tokens (Other than previously deployed tokens.)
+
+<details>
+<summary>Router Deployment Results</summary>
+
+```
+   Replacing 'Token1'
+   ------------------
+   > transaction hash:    0x56117faaabae382b56e8cc057cc247538d26eaf34835c14c5214ff4ab52b9dfe
+   > Blocks: 0            Seconds: 5
+   > contract address:    0xe32E8e30DFA0D86efe53749A7865B3a04D3659BE
+   > block number:        6362264
+   > block timestamp:     1721743368
+   > account:             0x9172BDC8973f91430ff81C49D05bd5416F4AB58a
+   > balance:             6.189073760813495277
+   > gas used:            1113541 (0x10fdc5)
+   > gas price:           22.113893231 gwei
+   > value sent:          0 ETH
+   > total cost:          0.024624726782340971 ETH
+
+
+   Replacing 'Token2'
+   ------------------
+   > transaction hash:    0xbac365515518f0f69dec30fc415179de818f727dff2699eac5bf9bb6fb432d6b
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x1Dad99F3387C809bf111Bfc5668637AF8B900c96
+   > block number:        6362265
+   > block timestamp:     1721743380
+   > account:             0x9172BDC8973f91430ff81C49D05bd5416F4AB58a
+   > balance:             6.165220169232350523
+   > gas used:            1113541 (0x10fdc5)
+   > gas price:           21.421385994 gwei
+   > value sent:          0 ETH
+   > total cost:          0.023853591581144754 ETH
+
 ```
 
 </details>
